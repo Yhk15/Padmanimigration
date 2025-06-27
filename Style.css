@@ -1,0 +1,140 @@
+.body {
+  background-color: #F8F9FA;
+  /* soft light gray */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container with light grey background */
+.container.text-center,
+.custom-container {
+  background-color: #f2f4f7;
+  /* slightly softer grey */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border-color: #316ac5;
+}
+
+/* Logo styling */
+.logo {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+/* Primary brand-colored button */
+.custom-btn {
+  border: 2px solid #0000FF;
+  /* Brand Blue border */
+  color: #0000FF;
+  /* Blue text */
+  border-radius: 12px;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0000FF;
+  /* Fill blue on hover */
+  color: white;
+}
+
+/* Optional red button (use sparingly for CTAs) */
+.btn-accent {
+  border: 2px solid #FF0000;
+  color: #FF0000;
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+/* Footer style (if needed) */
+footer {
+  background-color: #0D1B2A;
+  /* Dark navy blue */
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.form-label {
+  color: #0047FF
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0 10px 0;
+}
+
+.section-title h5 {
+  color: #0047FF;
+  /* Match your brand blue */
+  margin: 0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.section-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+  /* Light grey line */
+}
+
+fieldset {
+  padding: 25px 30px;
+  border: 2px solid #cfd8dc;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 71, 255, 0.05);
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0047FF;
+  padding: 0 10px;
+}
+
+fieldset hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.modal {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 700px;
+}
